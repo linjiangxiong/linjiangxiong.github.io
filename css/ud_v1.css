@@ -1,3 +1,5 @@
 #article-container {
-    font-size: 16px !important;
+    font-size: 18px !important;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
+    letter-spacing: .6px;
 }
