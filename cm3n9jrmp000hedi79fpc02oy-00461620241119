@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>文心网 | 文心网</title><meta name="author" content="文心网"><meta name="copyright" content="文心网"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="title: “第十八回 诸葛亮草船借箭”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;18date: 2024-11-17 11:26:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  周瑜得知曹操杀了蔡、张二人，大喜，便对鲁肃道：“此计不知能否瞒过孔明。子敬去探一探。” 诸葛亮见了鲁肃，马上向他">
+<meta property="og:type" content="article">
+<meta property="og:title" content="文心网">
+<meta property="og:url" content="http://example.com/cm3n9jrmp000hedi79fpc02oy-00461620241119">
+<meta property="og:site_name" content="文心网">
+<meta property="og:description" content="title: “第十八回 诸葛亮草船借箭”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;18date: 2024-11-17 11:26:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  周瑜得知曹操杀了蔡、张二人，大喜，便对鲁肃道：“此计不知能否瞒过孔明。子敬去探一探。” 诸葛亮见了鲁肃，马上向他">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/butterfly-icon.png">
+<meta property="article:published_time" content="2024-11-18T16:46:16.504Z">
+<meta property="article:modified_time" content="2024-11-18T16:46:16.504Z">
+<meta property="article:author" content="文心网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/butterfly-icon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/cm3n9jrmp000hedi79fpc02oy-00461620241119"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '文心网',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="/css/ud_v1.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">文心网</span></a><a class="nav-page-title" href="/"><span class="site-name">文心网</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">无标题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-18T16:46:16.504Z" title="发表于 2024-11-19 00:46:16">2024-11-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-18T16:46:16.504Z" title="更新于 2024-11-19 00:46:16">2024-11-19</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="container post-content" id="article-container"><hr>
+<h2 id="title-“第十八回-诸葛亮草船借箭”id-books-sanguo-baihuawen-18date-2024-11-17-11-26-38top-img-cover-tags-三国演义category-三国演义・白话文版"><a href="#title-“第十八回-诸葛亮草船借箭”id-books-sanguo-baihuawen-18date-2024-11-17-11-26-38top-img-cover-tags-三国演义category-三国演义・白话文版" class="headerlink" title="title: “第十八回 诸葛亮草船借箭”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;18date: 2024-11-17 11:26:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  "></a>title: “第十八回 诸葛亮草船借箭”<br>id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;18<br>date: 2024-11-17 11:26:38<br>top_img:<br>cover:<br>tags:<br>- 三国演义<br>category:<br>- 三国演义・白话文版  </h2><p>周瑜得知曹操杀了蔡、张二人，大喜，便对鲁肃道：“此计不知能否瞒过孔明。子敬去探一探。”</p>
+<p>诸葛亮见了鲁肃，马上向他贺喜。鲁肃问：“喜从何来？”诸葛亮道：“都督让你来探我知不知道，便是这件事情可喜。”鲁肃吓了一跳：“你如何知道？”诸葛亮道：“此计只好骗蒋干。曹操虽然一时被瞒过，但必定马上醒悟。听说曹操让毛玠、于禁做都督，江东就不用再担心了。”</p>
+<p>鲁肃回来见了周瑜，把诸葛亮的话照实说了。周瑜大惊道：“此人决不可留！”鲁肃道：“杀了孔明，恐怕被曹操耻笑。”周瑜道：“我自有妙计杀他，让他死而无怨。”</p>
+<p>第二天，周瑜请诸葛亮去议事。周瑜道：“不久就要和曹军交战了，水上交锋，什么兵器最好？”诸葛亮道：“当然是弓箭。”周瑜道：“我也是此意。可如今军中正缺箭用，想请先生监造十万支箭。这是公事，请先生不要推托。”诸葛亮道：“都督委托，自当效劳。但不知道这十万支箭何时要用？”周瑜问：“十天可造得好？”诸葛亮道：“曹军就要来攻，如果要十天，恐怕会误了大事。我只用三天，便可交箭。”周瑜道：“军中无戏言！”诸葛亮便立了军令状：三日造不完，甘当重罚。诸葛亮道：“今天来不及了，明天算起，三天后你派五百士兵到江边取箭。”诸葛亮走后，周瑜暗中吩咐工匠故意拖延，造箭物品也不供应齐备。</p>
+<p>鲁肃来见诸葛亮，诸葛亮道：“三天怎么造得好十万支箭？子敬得救救我！”鲁肃道：“是先生自己要三天交箭的，我哪有办法救你？”诸葛亮道：“请子敬借我二十只船，每只船上要三十个军士。船上都用青布蒙好，两边各扎一千个草把，我自有妙用。三天之后包管有十万支箭。只是不可让公瑾知道。”鲁肃答应了，却不知诸葛亮要船何用。回去报告周瑜，果然不提借船的事，只说诸葛亮不要竹子、翎毛、胶漆等物。</p>
+<p>鲁肃照诸葛亮说的拨了船只，听诸葛亮调用。第一天，没见诸葛亮有什么动静，第二天，还是没有动静。到第三天四更时分，诸葛亮悄悄地请鲁肃到船中，说去取箭。鲁肃疑惑地问：“到哪里去取呀？”诸葛亮道：“一会儿就知道了。”</p>
+<p>这一夜，长江上大雾弥漫，对面也看不见人。诸葛亮命令将船往北岸进发。到五更时，已靠近曹军水寨。诸葛亮让所有的船头西尾东，一字摆开，然后在船上擂鼓呐喊。鲁肃惊问：“如果曹军出来，如何是好？”诸葛亮道：“雾这么大，曹军一定不敢出来。我们只管喝酒，雾散了就回去。”</p>
+<p>曹军听到擂鼓呐喊声，慌忙报告曹操。曹操道：“雾这么大，敌人忽然来攻，肯定有埋伏，不可轻举妄动。可以让弓弩手用乱箭将他们射退。”于是，曹军一万多名弓弩手齐集江边，都向江中放箭。过了一会儿，诸葛亮吩咐将船掉头，仍然呐喊不停。等雾气散去，诸葛亮忙命收船回江南，船两边草把上都插满了箭。诸葛亮让军士们齐声高叫：“谢谢丞相的箭！”曹操才知上了当，忙派船去追，诸葛亮的船却已开远。</p>
+<p>鲁肃道：“先生真神人也！如何知道今日有此大雾？”诸葛亮道：“为将者不通天文，不识地理，不知奇门，不晓阴阳，不看阵图，不明兵势，是庸才也！亮已于三日前算定今日有此大雾，所以才敢答应三日的期限。公瑾叫我十日完工，工匠材料都不齐备，分明是想以此借口杀我。我命在天，公瑾岂能害我？”鲁肃拜服。到了岸边，周瑜派来的五百士兵已在等候。诸葛亮让他们从船上取箭，足足十万支有余。鲁肃告诉了周瑜取箭之事，周瑜叹道：“孔明神机妙算，我不如他！”</p>
+<p>过了一会儿，诸葛亮来见周瑜，周瑜道：“先生神算，让人佩服。我正在考虑出兵进攻，想了个办法，要向先生请教。”诸葛亮便让他先别说出来，两人都在手心写字，看看想的是否相同。两人写完一看，原来都是个“火”字，都大笑起来，却不对众将明说。</p>
+<p>曹操失了十几万支箭，十分气闷。荀攸献计派人诈降，以便内应。曹操同意了，便叫来蔡瑁的族弟蔡和、蔡中两人吩咐了一番，让他们偷偷到南岸去。周瑜见蔡和、蔡中两人来降，心中已明白是曹操的计谋，却假装信任二人。</p>
+<p>夜里，黄盖悄悄来见周瑜，献了一个计策。</p>
+<p>第二天，周瑜升帐。黄盖说曹军厉害，难以抵挡，不如投降。周瑜大怒，要斩黄盖。黄盖倚老卖老，大骂不止。周瑜更是大怒。甘宁为黄盖求情，被乱棒打出；众将纷纷跪下，周瑜才饶黄盖一死，重责一百军棍，直打得黄盖皮开肉绽。鲁肃看望黄盖后来见诸葛亮，责怪诸葛亮说：“今日公瑾怒责黄盖，我等都是他部下，不敢冒犯苦谏，先生是客，为何袖手旁观不发一言啊？”诸葛亮笑道：“子敬来骗我啊。”鲁肃问其缘故，诸葛亮道：“子敬岂会不知公瑾怒打黄盖是其计策？若不用苦肉计，如何骗得过曹操？”鲁肃方才恍然大悟。诸葛亮又叮嘱鲁肃千万不可告诉周瑜他已知道此计。鲁肃回见周瑜，只说诸葛亮也埋怨周瑜薄情，周瑜笑道：“这次可以瞒过孔明了。”鲁肃心中暗暗叹息。</p>
+<p>当晚，大家都来看黄盖，黄盖也不说话，只是叹气。阚泽来看他时，黄盖却让左右退下。阚泽问：“将军莫非与都督有仇？”黄盖摇头。阚泽便道：“如此莫非是苦肉计？”黄盖道：“我世受吴侯厚恩，无以为报，故献此计，以破曹操。我虽受苦，亦无所恨……”阚泽为其所感，便答应为黄盖去曹营送诈降书。</p>
+<p>曹操接到信后，反复看了十余遍，忽然拍案瞪眼大怒道：“黄盖用苦肉计，令你来献诈降书，如何敢来戏弄我！”令左右将阚泽推出斩首。阚泽仰天大笑，毫无惧色。曹操又将阚泽拉回询问，阚泽神态自若，对答如流。此时恰好接到蔡和、蔡中密报，曹操才非常高兴，设酒款待阚泽。曹操于是与阚泽约定，到时候插着青牙旗的船来便是黄盖来投降。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">文心网</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/cm3n9jrmp000hedi79fpc02oy-00461620241119">http://example.com/cm3n9jrmp000hedi79fpc02oy-00461620241119</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://example.com" target="_blank">文心网</a>！</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/cm3n9jrmp000iedi784ssadn8-00462320241119" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2"></div></div><div class="info-2"><div class="info-item-1"> title: “第十九回 周公瑾火烧赤壁曹操”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;19date: 2024-11-17 11:27:27top_img:cover:tags:- 三国演义category:- 三国演义・白话文版 ...</div></div></div></a><a class="pagination-related" href="/cm3n9jrmo000fedi77jbe6rjx-00460920241119" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2"></div></div><div class="info-2"><div class="info-item-1"> title: “第十七回 群英会蒋干中计”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;17date: 2024-11-17 11:21:37top_img:cover:tags:- 三国演义category:- 三国演义・白话文版 ...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">文心网</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E2%80%9C%E7%AC%AC%E5%8D%81%E5%85%AB%E5%9B%9E-%E8%AF%B8%E8%91%9B%E4%BA%AE%E8%8D%89%E8%88%B9%E5%80%9F%E7%AE%AD%E2%80%9Did-books-sanguo-baihuawen-18date-2024-11-17-11-26-38top-img-cover-tags-%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89category-%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E3%83%BB%E7%99%BD%E8%AF%9D%E6%96%87%E7%89%88"><span class="toc-number">1.</span> <span class="toc-text">title: “第十八回 诸葛亮草船借箭”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;18date: 2024-11-17 11:26:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  </span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrms0014edi7g3we8qbe-00492920241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:29.745Z" title="发表于 2024-11-19 00:49:29">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmu001aedi7gk8mhnwr-00492220241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:22.981Z" title="发表于 2024-11-19 00:49:22">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrms0012edi7hddhapyz-00491620241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:16.651Z" title="发表于 2024-11-19 00:49:16">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmr0011edi763ryc6vh-00491020241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:10.804Z" title="发表于 2024-11-19 00:49:10">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmr0010edi776f9h2v4-00490420241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:04.960Z" title="发表于 2024-11-19 00:49:04">2024-11-19</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2024 By 文心网</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

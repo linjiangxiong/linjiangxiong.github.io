@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>文心网 | 文心网</title><meta name="author" content="文心网"><meta name="copyright" content="文心网"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="title: “第二十九回 关云长水淹七军”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;29date: 2024-11-17 11:53:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  曹操得知刘备自立为汉中王，大怒，便要发兵再与刘备一决雌雄。司马懿谏道：“江东孙权，与刘备有仇。不如派一个能言善">
+<meta property="og:type" content="article">
+<meta property="og:title" content="文心网">
+<meta property="og:url" content="http://example.com/cm3n9jrmq000sedi731ug2wqf-00474820241119">
+<meta property="og:site_name" content="文心网">
+<meta property="og:description" content="title: “第二十九回 关云长水淹七军”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;29date: 2024-11-17 11:53:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  曹操得知刘备自立为汉中王，大怒，便要发兵再与刘备一决雌雄。司马懿谏道：“江东孙权，与刘备有仇。不如派一个能言善">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/butterfly-icon.png">
+<meta property="article:published_time" content="2024-11-18T16:47:48.156Z">
+<meta property="article:modified_time" content="2024-11-18T16:47:48.157Z">
+<meta property="article:author" content="文心网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/butterfly-icon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/cm3n9jrmq000sedi731ug2wqf-00474820241119"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '文心网',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="/css/ud_v1.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">文心网</span></a><a class="nav-page-title" href="/"><span class="site-name">文心网</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">无标题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-18T16:47:48.156Z" title="发表于 2024-11-19 00:47:48">2024-11-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-18T16:47:48.157Z" title="更新于 2024-11-19 00:47:48">2024-11-19</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="container post-content" id="article-container"><hr>
+<h2 id="title-“第二十九回-关云长水淹七军”id-books-sanguo-baihuawen-29date-2024-11-17-11-53-38top-img-cover-tags-三国演义category-三国演义・白话文版"><a href="#title-“第二十九回-关云长水淹七军”id-books-sanguo-baihuawen-29date-2024-11-17-11-53-38top-img-cover-tags-三国演义category-三国演义・白话文版" class="headerlink" title="title: “第二十九回 关云长水淹七军”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;29date: 2024-11-17 11:53:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  "></a>title: “第二十九回 关云长水淹七军”<br>id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;29<br>date: 2024-11-17 11:53:38<br>top_img:<br>cover:<br>tags:<br>- 三国演义<br>category:<br>- 三国演义・白话文版  </h2><p>曹操得知刘备自立为汉中王，大怒，便要发兵再与刘备一决雌雄。司马懿谏道：“江东孙权，与刘备有仇。不如派一个能言善辩之人去见孙权，让他兴师动众兵取荆州。刘备如果起兵去救，大王再取汉中。”曹操觉得有理，便派满宠到了江东。</p>
+<p>孙权会过满宠，忙与众谋士商议。诸葛瑾道：“我听说云长有个女儿，还未许配人。我愿往荆州，为主公世子求婚。如云长应允，便与他共破曹操；如云长不肯，再助曹操取荆州。”</p>
+<p>孙权便派诸葛瑾来见关羽。问过来意，关羽勃然大怒道：“我家虎女怎肯嫁东吴犬子！休再多言！不看你弟弟面上，立刻便斩了你！”诸葛瑾抱头鼠窜，回见吴侯，以实相告。孙权大怒，便要起兵取荆州。步骘劝道：“曹操让主公取荆州，不过是嫁祸于东吴。主公不如让曹操先攻荆州；等关羽出兵去迎战，再派一将暗取荆州。”孙权从计。刘备得知曹操联合东吴，要取荆州，忙与诸葛亮商议。诸葛亮让刘备命关羽先起兵取樊城。刘备便派费诗带着封号去见关羽。关羽迎接费诗入城，得知自己被封“五虎大将”之首，就问：“哪五虎将？”费诗答：“关、张、赵、马、黄是也。”关羽怒道：“翼德我弟也！子龙久随我兄，即我弟也；马孟起是世代名将。黄忠是个老卒，如何敢与我并列？”费诗笑道：“将军差矣！昔日萧何、曹参与汉高祖同举大事，最为亲近，而韩信不过是一个降将，却被封王，在二人之上。没听见二人对此有什么怨言；而今将军与汉中王为兄弟，实为一体。将军当与汉中王同舟共济，不应计较名位之高下。”关羽闻言大悟，拜谢费诗。</p>
+<p>于是关羽领命，立即点傅士仁、麋芳为先锋，引一军到城外屯扎。当晚，忽然城外火起，关羽忙披挂上马。一查问，才知道是傅士仁与麋芳夜里饮酒，炉火点着了火炮。大火烧毁了军器粮草，关羽大怒要斩二将，费诗连忙劝住。关羽便将二人重责四十杖，罚麋芳守南郡，傅士仁守公安。</p>
+<p>次日，关羽起兵，用计击败曹仁，取了襄阳。随军司马王甫道：“东吴吕蒙屯兵陆口，若乘机来攻荆州，如何是好？”关羽道：“你可沿江岸，每隔二三十里，选高处建一个烽火台，每台用五十军士把守。如果吴军渡江，则夜晚放火，白天烧烟。”</p>
+<p>曹仁损兵折将，退守樊城。关羽追来，曹仁又败了一阵，急忙差人星夜向曹操求救。曹操便命于禁为将，庞德为先锋，领七支军马，去救樊城。于禁部将董衡道：“庞德原是马超手下大将。马超现在刘备手下，让庞德做先锋，岂不误事？”于樊赶紧告知曹操。庞德见曹操疑心，回家命匠人造好一口棺材，对亲友、部将道：“我与关羽决战，若杀了关羽，便取他首级装此棺内，献给魏王；我若被关羽所杀，此棺可盛我尸身。”曹操得知此事，大喜。庞德抬着棺材出阵，指名要战关羽。关羽大怒，拍马出阵。两人大战一百余回合，精神倍长，两边军士都看得呆了。双方鸣金收兵，不分胜负。两人均暗想：这次遇上了劲敌！</p>
+<p>第二天，两人再战。斗到五十回合，庞德拨回马，拖刀就走。关羽大骂：“庞贼！要用拖刀计，我岂怕你！”庞德挂住刀，偷偷拉开弓一箭射来。关平眼快，忙大叫：“贼将休放冷箭！”关羽躲闪不及，被射中左臂。关平慌忙来救。庞德正要追赶，只听本营锣声大震，只得回营。原来于禁见庞德射中关羽，怕他立了大功，灭了自己威风，因此鸣金收兵。</p>
+<p>关羽痛恨庞德，不等伤好就要出战，众将劝住。庞德连日搦战，无人出迎。庞德叫于禁统军杀入关羽寨中，于禁不肯，却将七支军马移到山脚，让庞德屯兵谷后，不能立功。</p>
+<p>关羽箭伤一愈，便引兵到高处探视。见于禁屯兵山谷，心中暗喜。于是派人堵住各处水口，准备船筏，收拾水具，要放水淹曹军。</p>
+<p>此时正是八月，连下了几日暴雨。副将成何道：“我军屯兵低处，如江水暴涨，如何是好？”于禁不听，反叱骂成何惑乱军心。成何只得与庞德商议，庞德便打算次日移兵高处。当夜风雨大作。庞德出营一看，只见四面八方，大水涌来。士兵被冲走无数，于禁、庞德等人登上小山避水。到了清晨，关羽与众将摇旗呐喊，乘大船而来。于禁见无路可走，便降了关羽。庞德见关羽来，全然不惧。关羽命军士放箭，射死魏兵大半。其余魏军都降了关羽，只有庞德仍拼死抵挡。荆州兵十余人驾小船攻近堤边，被庞德一跃上船，杀了士卒。庞德一手举刀，一手驾船，向樊城划去。只见上游一员大将撑着大木筏而来，将小船撞翻，庞德落入水中。船上那将跳下水去，擒了庞德。原来那将正是周仓。周仓在荆州多年，熟知水性；更兼力大，因此擒了庞德。于禁所领七军，大多淹死；会水的见无去路，也都投降。</p>
+<p>关羽回到高处升帐，刀斧手押过于禁，于禁拜伏于地请求饶命。关羽命将于禁押入大牢，等候发落。左右又押过庞德，庞德怒目圆睁，立而不跪。关羽劝庞德投降，庞德骂不绝口，被推出斩首。关羽见庞德忠义，甚为怜惜，命人妥善安葬。</p>
+<p>关羽乘水势未退攻到樊城，立马扬鞭，指着城上喝道：“你们还不投降，更待何时？”曹仁见了，急招五百弓弩手，一齐放箭。关羽正要回马时，右臂中箭，翻身落马。曹仁引军杀出，关平慌忙救关羽归寨。</p>
+<p>关平见关羽右臂青肿，不能活动，知道所中的是毒箭，便劝他暂回荆州调理。关羽不肯。关平只得四处寻访名医。一日，神医华佗闻讯来医治。华佗看过伤口，对关羽道：“毒药已入骨头，如不医治，右臂恐怕就无用了。”关羽问：“用什么药医治？”华佗道：“我自有办法，只怕将军惧怕。”关羽笑道：“我死都不怕，还怕什么！”华佗道：“可在静处立一柱，上设铁环。将军将手臂穿于铁环中，用绳绑住，然后用被蒙头。我用尖刀割开皮肉，刮去骨上箭毒，然后敷药缝合，方可无事。但恐将军害怕。”关羽道：“如此，容易！何必要柱子铁环啊？”于是设酒席款待华佗。</p>
+<p>关公饮了几杯酒，就一面与马良下棋，一面伸右臂让华佗医治。华佗割开皮肉，用刀刮骨头，发出咔咔的声音。帐上帐下人人见了，无不掩面失色，只有关羽一边下棋，一边喝酒，谈笑自若。华佗缝好伤口，敷好药，关羽笑着起身，说道：“此臂又能伸舒自如了，先生真是神医呀！”华佗道：“我行医一生，从没见过将军这样的人！将军真是天神啊！”</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">文心网</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/cm3n9jrmq000sedi731ug2wqf-00474820241119">http://example.com/cm3n9jrmq000sedi731ug2wqf-00474820241119</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://example.com" target="_blank">文心网</a>！</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/cm3n9jrmr000zedi7e6az3w9v-00475420241119" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2"></div></div><div class="info-2"><div class="info-item-1"> title: “第三十回 走麦城关公归神”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;30date: 2024-11-17 11:55:58top_img:cover:tags:- 三国演义category:- 三国演义・白话文版 ...</div></div></div></a><a class="pagination-related" href="/cm3n9jrmq000qedi7asl45clz-00474220241119" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2"></div></div><div class="info-2"><div class="info-item-1"> title: “第二十八回 黄忠计夺定军山”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;28date: 2024-11-17 11:50:48top_img:cover:tags:- 三国演义category:- 三国演义・白话文版 ...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">文心网</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E2%80%9C%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D%E5%9B%9E-%E5%85%B3%E4%BA%91%E9%95%BF%E6%B0%B4%E6%B7%B9%E4%B8%83%E5%86%9B%E2%80%9Did-books-sanguo-baihuawen-29date-2024-11-17-11-53-38top-img-cover-tags-%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89category-%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E3%83%BB%E7%99%BD%E8%AF%9D%E6%96%87%E7%89%88"><span class="toc-number">1.</span> <span class="toc-text">title: “第二十九回 关云长水淹七军”id: &#x2F;books&#x2F;sanguo&#x2F;baihuawen&#x2F;29date: 2024-11-17 11:53:38top_img:cover:tags:- 三国演义category:- 三国演义・白话文版  </span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrms0014edi7g3we8qbe-00492920241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:29.745Z" title="发表于 2024-11-19 00:49:29">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmu001aedi7gk8mhnwr-00492220241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:22.981Z" title="发表于 2024-11-19 00:49:22">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrms0012edi7hddhapyz-00491620241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:16.651Z" title="发表于 2024-11-19 00:49:16">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmr0011edi763ryc6vh-00491020241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:10.804Z" title="发表于 2024-11-19 00:49:10">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmr0010edi776f9h2v4-00490420241119" title="无标题">无标题</a><time datetime="2024-11-18T16:49:04.960Z" title="发表于 2024-11-19 00:49:04">2024-11-19</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2024 By 文心网</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
