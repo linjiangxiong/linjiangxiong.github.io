@@ -1,0 +1,187 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>述而篇第七 | 文心网</title><meta name="author" content="文心网"><meta name="copyright" content="文心网"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="子曰：“述而不作，信而好古，窃比于我老彭。” 子曰：“默而识之，学而不厌，诲人不倦，何有于我哉？” 子曰：“德之不修，学之不讲，闻义不能徙，不善不能改，是吾忧也。” 子之燕居，申申如也，夭夭如也。 子曰：“甚矣吾衰也！久矣吾不复梦见周公。” 子曰：“志于道，据于德，依于仁，游于艺。” 子曰：“自行束脩以上，吾未尝无诲焉。” 子曰：“不愤不启，不悱不发，举一隅不以三隅反，则不复也。” 子食于有丧者之">
+<meta property="og:type" content="article">
+<meta property="og:title" content="述而篇第七">
+<meta property="og:url" content="http://example.com/books/lunyu/7-yi-11-11">
+<meta property="og:site_name" content="文心网">
+<meta property="og:description" content="子曰：“述而不作，信而好古，窃比于我老彭。” 子曰：“默而识之，学而不厌，诲人不倦，何有于我哉？” 子曰：“德之不修，学之不讲，闻义不能徙，不善不能改，是吾忧也。” 子之燕居，申申如也，夭夭如也。 子曰：“甚矣吾衰也！久矣吾不复梦见周公。” 子曰：“志于道，据于德，依于仁，游于艺。” 子曰：“自行束脩以上，吾未尝无诲焉。” 子曰：“不愤不启，不悱不发，举一隅不以三隅反，则不复也。” 子食于有丧者之">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/butterfly-icon.png">
+<meta property="article:published_time" content="2024-11-10T23:43:23.000Z">
+<meta property="article:modified_time" content="2024-11-17T17:54:45.688Z">
+<meta property="article:author" content="文心网">
+<meta property="article:tag" content="论语">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/butterfly-icon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/books/lunyu/7-yi-11-11"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '述而篇第七',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="/css/ud_v1.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">文心网</span></a><a class="nav-page-title" href="/"><span class="site-name">述而篇第七</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">述而篇第七</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-10T23:43:23.000Z" title="发表于 2024-11-11 07:43:23">2024-11-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-17T17:54:45.688Z" title="更新于 2024-11-18 01:54:45">2024-11-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/lunyu/">论语</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="container post-content" id="article-container"><p>子曰：“述而不作，信而好古，窃比于我老彭。”</p>
+<p>子曰：“默而识之，学而不厌，诲人不倦，何有于我哉？”</p>
+<p>子曰：“德之不修，学之不讲，闻义不能徙，不善不能改，是吾忧也。”</p>
+<p>子之燕居，申申如也，夭夭如也。</p>
+<p>子曰：“甚矣吾衰也！久矣吾不复梦见周公。”</p>
+<p>子曰：“志于道，据于德，依于仁，游于艺。”</p>
+<p>子曰：“自行束脩以上，吾未尝无诲焉。”</p>
+<p>子曰：“不愤不启，不悱不发，举一隅不以三隅反，则不复也。”</p>
+<p>子食于有丧者之侧，未尝饱也。</p>
+<p>子于是日哭，则不歌。</p>
+<p>子谓颜渊曰：“用之则行，舍之则藏，惟我与尔有是夫！”子路曰：“子行三军，则谁与？”子曰：“暴虎冯河，死而无悔者，吾不与也。必也临事而惧，好谋而成者也。”</p>
+<p>子曰：“富而可求也，虽执鞭之士，吾亦为之。如不可求，从吾所好。”</p>
+<p>子之所慎：齐（斋），战，疾。</p>
+<p>子在齐闻《韶》，三月不知肉味，曰：“不图为乐之至於斯也。”</p>
+<p>冉有曰：“夫子为卫君乎？”子贡曰：“诺，吾将问之。”入，曰：“伯夷、叔齐何人也？”曰：“古之贤人也。”曰：“怨乎？”曰：“求仁而得仁，又何怨？”出，曰：“夫子不为也。”</p>
+<p>子曰：“饭疏食饮水，曲肱而枕之，乐亦在其中矣。不义而富且贵，于我如浮云。”</p>
+<p>子曰：“加我数年，五十以学《易》，可以无大过矣。”</p>
+<p>子所雅言，《诗》、《书》、执礼，皆雅言也。</p>
+<p>叶公问孔子于子路，子路不对。子曰：“女奚不曰：其为人也，发愤忘食，乐以忘忧，不知老之将至云尔。”</p>
+<p>子曰：“我非生而知之者，好古，敏以求之者也。”</p>
+<p>子不语怪、力、乱、神。</p>
+<p>子曰：“三人行，必有我师焉。择其善者而从之，其不善者而改之。”</p>
+<p>子曰：“天生德于予，桓魋其如予何？”</p>
+<p>子曰：“二三子以我为隐乎？吾无隐乎尔！吾无行而不与二三子者，是丘也。”</p>
+<p>子以四教：文，行，忠，信。</p>
+<p>子曰：“圣人，吾不得而见之矣；得见君子者斯可矣。”子曰：“善人，吾不得而见之矣，得见有恒者斯可矣。亡而为有，虚而为盈，约而为泰，难乎有恒矣。”</p>
+<p>子钓而不纲，弋不射宿。</p>
+<p>子曰：“盖有不知而作之者，我无是也。多闻，择其善者而从之；多见而识之，知之次也。”</p>
+<p>互乡难与言，童子见，门人惑。子曰：“与其进也，不与其退也，唯何甚？人洁己以进，与其洁也，不保其往也。”</p>
+<p>子曰：“仁远乎哉？我欲仁，斯仁至矣。”</p>
+<p>陈司败问：“昭公知礼乎？”孔子曰：“知礼。”孔子退，揖巫马期而进之，曰：“吾闻君子不党，君子亦党乎？君取于吴，为同姓，谓之吴孟子。君而知礼，孰不知礼？”巫马期以告，子曰：“丘也幸，苟有过，人必知之。”</p>
+<p>子与人歌而善，必使反之，而后和之。</p>
+<p>子曰：“文，莫吾犹人也。躬行君子，则吾未之有得。”</p>
+<p>子曰：“若圣与仁，则吾岂敢？抑为之不厌，诲人不倦，则可谓云尔已矣。”公西华曰：“正唯弟子不能学也。”</p>
+<p>子疾病，子路请祷。子曰：“有诸？”子路对曰：“有之。《诔》曰：‘祷尔于上下神祇。’”子曰：“丘之祷久矣。”</p>
+<p>子曰：“奢则不孙，俭则固。与其不孙也，宁固。”</p>
+<p>子曰：“君子坦荡荡，小人长戚戚。”</p>
+<p>子温而厉，威而不猛，恭而安。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">文心网</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/books/lunyu/7-yi-11-11">http://example.com/books/lunyu/7-yi-11-11</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://example.com" target="_blank">文心网</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%BA%E8%AF%AD/">论语</a></div><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/books/lunyu/8-11-11" title="泰伯篇第八"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">泰伯篇第八</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/books/lunyu/7-11-11" title="述而篇第七"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">述而篇第七</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/books/lunyu/10-yi-11-11" title="乡党篇第十"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="info-item-2">乡党篇第十</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/books/lunyu/11-yi-11-11" title="先进篇第十一"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="info-item-2">先进篇第十一</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/books/lunyu/3-yi-11-11" title="八佾篇第三"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="info-item-2">八佾篇第三</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/books/lunyu/2-yi-11-11" title="为政篇第二"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="info-item-2">为政篇第二</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/books/lunyu/9-yi-11-11" title="子罕篇第九"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="info-item-2">子罕篇第九</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/books/lunyu/1-yi-11-11" title="学而篇第一"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="info-item-2">学而篇第一</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">文心网</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmu001aedi7gk8mhnwr-11-19" title="无标题">无标题</a><time datetime="2024-11-18T16:49:22.981Z" title="发表于 2024-11-19 00:49:22">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrms0012edi7hddhapyz-11-19" title="无标题">无标题</a><time datetime="2024-11-18T16:49:16.651Z" title="发表于 2024-11-19 00:49:16">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmr0011edi763ryc6vh-11-19" title="无标题">无标题</a><time datetime="2024-11-18T16:49:10.804Z" title="发表于 2024-11-19 00:49:10">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrmr0010edi776f9h2v4-11-19" title="无标题">无标题</a><time datetime="2024-11-18T16:49:04.960Z" title="发表于 2024-11-19 00:49:04">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/cm3n9jrms0013edi7apgv6izh-11-19" title="无标题">无标题</a><time datetime="2024-11-18T16:48:58.562Z" title="发表于 2024-11-19 00:48:58">2024-11-19</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2024 By 文心网</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
