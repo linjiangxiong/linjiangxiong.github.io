@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>文心网</title><meta name="author" content="文心网"><meta name="copyright" content="文心网"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="文心网">
+<meta property="og:url" content="http://example.com/page/16/index.html">
+<meta property="og:site_name" content="文心网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/butterfly-icon.png">
+<meta property="article:author" content="文心网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/butterfly-icon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/page/16/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '文心网',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="/css/ud_v1.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">206</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">文心网</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">文心网</h1></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/18-20240208471116/" title="第十八回 贾文和料敌决胜 夏侯惇拨矢啖睛">第十八回 贾文和料敌决胜 夏侯惇拨矢啖睛</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T18:08:47.000Z" title="发表于 2024-11-16 02:08:47">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说贾诩料知曹操之意，便欲将计就计而行，乃谓张绣曰：“某在城上见曹操绕城而观者三日。他见城东南角砖土之色，新旧不等，鹿角多半毁坏，意将从此处攻进，却虚去西北上积草，诈为声势，欲哄我撤兵守西北，彼乘夜黑必爬东南角而进也。绣曰：“然则奈何？”诩曰：“此易事耳。来日可今精壮之兵，饱食轻装，尽蒙于东南房屋内，却教百姓假扮军士，虚守西北。夜间任他在东南角上爬城。俟其爬进城时，一声炮响，伏兵齐起，操可擒矣。”绣喜，从其计。 早有探马报曹操，说张绣尽撤兵在西北角上，呐喊守城，东南却甚空虚。操曰：“中吾计矣！”遂命军中密备锹钁爬城器具。日间只引军攻西北角。至二更时分，却领精兵于东南角上爬过壕去，砍开鹿角。城中全无动静，众军一齐拥入。只听得一声炮响，伏兵四起。曹军急退，背后张绣亲驱勇壮杀来。曹军大败，退出城外，奔走数十里。张绣直杀至天明方收军入城。曹操计点败军，折兵五万余人，失去辎重无数。吕虔、于禁俱各被伤。却说贾诩见操败走，急劝张绣遗书刘表，使起兵截其后路。表得书，即欲起兵。忽探马报孙策屯兵湖口。蒯良曰：“策屯兵湖口，乃曹操之计也。今操新败，若不乘势击之，后必有患。”表乃令黄祖坚守隘口，自己统兵...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/17-20240153171116/" title="第十七回 袁公路大起七军 曹孟德会合三将">第十七回 袁公路大起七军 曹孟德会合三将</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:53:17.000Z" title="发表于 2024-11-16 01:53:17">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说袁术在淮南，地广粮多，又有孙策所质玉玺，遂思僭称帝号；大会群下议曰：“昔汉高祖不过泗上一亭长，而有天下；今历年四百，气数已尽，海内鼎沸。吾家四世三公，百姓所归；吾效应天顺人，正位九五。尔众人以为何如？”主簿阁象曰：“不可。昔周后稷积德累功，至于文王，三分天下有其二，犹以服事殷。明公家世虽贵，未若有周之盛；汉室虽微，未若殷纣之暴也。此事决不可行。”术怒曰：“吾袁姓出于陈。陈乃大舜之后。以土承火，正应其运。又谶云：代汉者，当涂高也。吾字公路，正应其谶。又有传国玉玺。若不为君，背天道也。吾意已决，多言者斩！”遂建号仲氏，立台省等官，乘龙凤辇，祀南北郊，立冯方女为后，立子为东宫。因命使催取吕布之女为东宫妃，却闻布已将韩胤解赴许都，为曹操所斩，乃大怒；遂拜张勋为大将军，统领大军二十余万，分七路征徐州：第一路大将张勋居中，第二路上将桥蕤居左，第三路上将陈纪居右，第四路副将雷薄居左，第五路副将陈兰居右，第六路降将韩暹居左，第七路降将杨奉居右。各领部下健将，克日起行。命兖州刺史金尚为太尉，监运七路钱粮。尚不从，术杀之。以纪灵为七路都救应使。术自引军三万，使李丰、梁刚、乐就为催进使，接应七路之...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/16-20240151461116/" title="第十六回 吕奉先射戟辕门 曹孟德败师淯水">第十六回 吕奉先射戟辕门 曹孟德败师淯水</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:51:46.000Z" title="发表于 2024-11-16 01:51:46">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说杨大将献计欲攻刘备。袁术曰：“计将安出？”大将曰：“刘备屯军小沛，虽然易取，奈吕布虎踞徐州，前次许他金帛粮马，至今未与，恐其助备；今当令人送与粮食，以结其心，使其按兵不动，则刘备可擒。先擒刘备，后图吕布，徐州可得也。”术喜，便具粟二十万斛，令韩胤赍密书往见吕布。吕布甚喜，重待韩胤。胤回告袁术，术遂遣纪灵为大将，雷薄、陈兰为副将，统兵数万，进攻小沛。玄德闻知此信，聚众商议。张飞要出战。孙乾曰：“今小沛粮寡兵微，如何抵敌？可修书告急于吕布。”张飞曰：“那厮如何肯来！”玄德曰：“乾之言善。”遂修书与吕布。书略曰： 伏自将军垂念，令备于小沛容身，实拜云天之德。今袁术欲报私仇，遣纪灵领兵到县，亡在旦夕，非将军莫能救。望驱一旅之师，以救倒悬之急，不胜幸甚！ 吕布看了书，与陈宫计议曰：“前者袁术送粮致书，盖欲使我不救玄德也。今玄德又来求救。吾想玄德屯军小沛，未必遂能为我害；若袁术并了玄德，则北连泰山诸将以图我，我不能安枕矣：不若救玄德。”遂点兵起程。 却说纪灵起兵长驱大进，已到沛县东南，扎下营寨。昼列旌旗，遮映山川；夜设火鼓，震明天地。玄德县中，止有五千余人，也只得勉强出县，布阵安营。忽报...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/15-20240146351116/" title="第十五回 太史慈酣斗小霸王 孙伯符大战严白虎">第十五回 太史慈酣斗小霸王 孙伯符大战严白虎</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:46:35.000Z" title="发表于 2024-11-16 01:46:35">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说张飞拔剑要自刎，玄德向前抱住，夺剑掷地曰：“古人云：‘兄弟如手足，妻子如衣服。衣服破，尚可缝；手足断，安可续？’吾三人桃园结义，不求同生，但愿同死。今虽失了城池家小，安忍教兄弟中道而亡？况城池本非吾有；家眷虽被陷，吕布必不谋害，尚可设计救之。贤弟一时之误，何至遽欲捐生耶！”说罢大哭。关、张俱感泣。 且说袁术知吕布袭了徐州，星夜差人至吕布处，许以粮五万斛、马五百匹、金银一万两、彩缎一千匹，使夹攻刘备。布喜，令高顺领兵五万袭玄德之后。玄德闻得此信，乘阴雨撤兵，弃盱眙而走，思欲东取广陵。比及高顺军来，玄德已去。高顺与纪灵相见，就索所许之物。灵曰：“公且回军，容某见主公计之。”高顺乃别纪灵回军，见吕布具述纪灵语。布正在迟疑，忽有袁术书至。书意云：“高顺虽来，而刘备未除；且待捉了刘备，那时方以所许之物相送。”布怒骂袁术失信，欲起兵伐之。陈宫曰：“不可。术据寿春，兵多粮广，不可轻敌。不如请玄德还屯小沛，使为我羽翼。他日令玄德为先锋，那时先取袁术，后取袁绍，可纵横天下矣。”布听其言，令人赍书迎玄德回。 却说玄德引兵东取广陵，被袁术劫寨，折兵大半。回来正遇吕布之使，呈上书札，玄德大喜。关、张...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/14-20240129501116/" title="第十四回 曹孟德移驾幸许都 吕奉先乘夜袭徐郡">第十四回 曹孟德移驾幸许都 吕奉先乘夜袭徐郡</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:29:50.000Z" title="发表于 2024-11-16 01:29:50">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说李乐引军诈称李傕、郭汜，来遍车驾，天子大惊。杨奉曰：“此李乐也。”遂令徐晃出迎之。李乐亲自出战。两马相交，只一合，被徐晃一斧砍于马下，杀散余党，保护车驾过箕关。太守张杨具粟帛迎驾于轵道。帝封张杨为大司马。杨辞帝屯兵野王去了。帝入洛阳，见宫室烧尽，街市荒芜，满目皆是蒿草，宫院中只有颓墙坏壁。命杨奉且盖小宫居住。百官朝贺，皆立于荆棘之中。诏改兴平为建安元年。是岁又大荒。洛阳居民，仅有数百家，无可为食，尽出城去剥树皮、掘草根食之。尚书郎以下，皆自出城樵采，多有死于颓墙坏壁之间者。汉末气运之衰，无甚于此。后人有诗叹之曰： 血流芒砀白蛇亡，赤帜纵横游四方。秦鹿逐翻兴社稷，楚雅推倒立封疆。 天子懦弱奸邪起，气色凋零盗贼狂。看到两京遭难处，铁人无泪也怬惶！ 太尉杨彪奏帝曰：“前蒙降诏，未曾发遣。今曹操在山东，兵强将盛，可宣入朝，以辅王室。”帝曰：“朕前既降诏。卿何必再奏，今即差人前去便了。”彪领旨，即差使命赴山东，宣召曹操。 却说曹操在山东，闻知车驾已还洛阳，聚谋士商议，荀彧进曰：“昔晋文公纳周襄王，而诸侯服从；汉高祖为义帝发丧，而天下归心。今天子蒙尘，将军诚因此时首倡义兵，奉天子以从众望...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/13-20240124541116/" title="第十三回 李傕郭汜大交兵 杨奉董承双救驾">第十三回 李傕郭汜大交兵 杨奉董承双救驾</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:24:54.000Z" title="发表于 2024-11-16 01:24:54">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说曹操大破吕布于定陶，布乃收集败残军马于海滨，众将皆来会集，欲再与曹操决战，陈宫曰：“今曹兵势大，未可与争。先寻取安身之地，那时再来未迟。”布曰：“吾欲再投袁绍，何如？”宫曰：“先使人往冀州探听消息，然后可去。”布从之。 且说袁绍在冀州，闻知曹操与吕布相持，谋士审配进曰：“吕布，豺虎也：若得兖州，必图冀州。不若助操攻之，方可无患。”绍遂遣颜良将兵五万，往助曹操。细作探知这个消息，飞报吕布。布大惊，与陈宫商议。宫曰：“闻刘玄德新领徐州，可往投之。”布从其言，竟投徐州来。有人报知玄德。玄德曰：“布乃当今英勇之士，可出迎之。”糜竺曰：“吕布乃虎狼之徒，不可收留；收则伤人矣。”玄德曰：“前者非布袭兖州，怎解此郡之祸。今彼穷而投我，岂有他心！”张飞曰：“哥哥心肠忒好。虽然如此，也要准备。” 玄德领众出城三十里，接着吕布，并马入城。都到州衙厅上，讲礼毕，坐下。布曰：“某自与王司徒计杀董卓之后，又遭傕、汜之变，飘零关东，诸侯多不能相容。近因曹贼不仁，侵犯徐州，蒙使君力救陶谦，布因袭兖州以分其势；不料反堕奸计，败兵折将。今投使君，共图大事，未审尊意如何？”玄德曰：“陶使君新逝，无人管领徐州，因...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/12-20240121481116/" title="第十二回 陶恭祖三让徐州 曹孟德大战吕布">第十二回 陶恭祖三让徐州 曹孟德大战吕布</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:21:48.000Z" title="发表于 2024-11-16 01:21:48">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说曹操正慌走间，正南上一彪军到，乃夏侯惇引军来救援，截住吕布大战。斗到黄昏时分，大雨如注，各自引军分散。操回寨，重赏典韦，加为领军都尉。 却说吕布到寨，与陈宫商议。宫曰：“濮阳城中有富户田氏，家僮千百，为一郡之巨室；可令彼密使人往操寨中下书，言‘吕温侯残暴不仁，民心大怨。今欲移兵黎阳，止有高顺在城内。可连夜进兵，我为内应’。操若来，诱之入城，四门放火，外设伏兵。曹操虽有经天纬地之才，到此安能得脱也？”吕布从其计，密谕田氏使人径到操寨。操因新败，正在踌躇，忽报田氏人到，呈上密书云：“吕布已往黎阳，城中空虚。万望速来，当为内应。城上插白旗，大书‘义’字，便是暗号。”操大喜曰：“天使吾得濮阳也！”重赏来人，一面收拾起兵。刘晔曰：“布虽无谋，陈宫多计。只恐其中有诈，不可不防。明公欲去，当分三军为三队：两队伏城外接应，一队入城，方可。”操从其言，分军三队，来至濮阳城下。 操先往观之，见城上遍竖旗幡，西门角上，有一“义”字白旗，心中暗喜。是日午牌，城门开处，两员将引军出战：前军侯成，后军高顺。操即使典韦出马，直取侯成。侯成抵敌不过，回马望城中走。韦赶到吊桥边，高顺亦拦挡不住，都退入城中去了...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/11-20240118081116/" title="第十一回 刘皇叔北海救孔融 吕温侯濮阳破曹操">第十一回 刘皇叔北海救孔融 吕温侯濮阳破曹操</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:18:08.000Z" title="发表于 2024-11-16 01:18:08">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说献计之人，乃东海朐县人，姓糜，名竺，字子仲。此人家世富豪，尝往洛阳买卖，乘车而回，路遇一美妇人，来求同载，竺乃下车步行，让车与妇人坐。妇人请竺同载。竺上车端坐，目不邪视。行及数里，妇人辞去；临别对竺曰：“我乃南方火德星君也，奉上帝教，往烧汝家。感君相待以礼，故明告君。君可速归，搬出财物。吾当夜来。”言讫不见。竺大惊，飞奔到家，将家中所有，疾忙搬出。是晚果然厨中火起，尽烧其屋。竺因此广舍家财，济贫拔苦。后陶谦聘为别驾从事。当日献计曰：“某愿亲往北海郡，求孔融起兵救援；更得一人往青州田楷处求救：若二处军马齐来，操必退兵矣。”谦从之，遂写书二封，问帐下谁人敢去青州求救。一人应声愿往。众视之，乃广陵人，姓陈，名登，字元龙。陶谦先打发陈元龙往青州去讫，然后命糜竺赍书赴北海，自己率众守城，以备攻击。 却说北海孔融，字文举，鲁国曲阜人也，孔子二十世孙，泰山都尉孔宙之子。自小聪明，年十岁时，往谒河南尹李膺，阍人难之，融曰：“我系李相通家。”及入见，膺问曰：“汝祖与吾祖何亲？”融曰：“昔孔子曾问礼于老子，融与君岂非累世通家？”膺大奇之。少顷，太中大夫陈炜至。膺指融曰：“此奇童也。”炜曰：“小时...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/10-20240116551116/" title="第十回 勤王室马腾举义 报父仇曹操兴师">第十回 勤王室马腾举义 报父仇曹操兴师</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:16:55.000Z" title="发表于 2024-11-16 01:16:55">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说李、郭二贼欲弑献帝。张济、樊稠谏曰：“不可。今日若便杀之，恐众人不服，不如仍旧奉之为主，赚诸侯入关，先去其羽翼，然后杀之，天下可图也。”李、郭二人从其言，按住兵器。帝在楼上宣谕曰：“王允既诛，军马何故不退？”李傕、郭汜曰：“臣等有功王室，未蒙赐爵，故不敢退军。”帝曰：“卿欲封何爵？”李、郭、张、樊四人各自写职衔献上，勒要如此官品，帝只得从之。封李傕为车骑将军池阳侯领司隶校尉假节钺，郭汜为后将军美阳侯假节钺，同秉朝政；樊稠为右将军万年侯，张济为骠骑将军平阳侯，领兵屯弘农。其余李蒙、王方等，各为校尉。然后谢恩，领兵出城。又下令追寻董卓尸首，获得些零碎皮骨，以香木雕成形体，安凑停当，大设祭祀，用王者衣冠棺椁，选择吉日，迁葬郿坞。临葬之期，天降大雷雨，平地水深数尺，霹雳震开其棺，尸首提出棺外。李傕候晴再葬，是夜又复如是。三次改葬，皆不能葬，零皮碎骨，悉为雷火消灭。天之怒卓。可谓甚矣！ 且说李傕、郭汜既掌大权，残虐百姓；密遣心腹侍帝左右，观其动静。献帝此时举动荆棘。朝廷官员，并由二贼升降。因采人望，特宣朱儁入朝封为太仆，同领朝政。一日，人报西凉太守马腾；并州刺史韩遂二将引军十余万，杀奔...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/sanguo/9-20240108491116/" title="第九回 除暴凶吕布助司徒 犯长安李傕听贾诩">第九回 除暴凶吕布助司徒 犯长安李傕听贾诩</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-15T17:08:49.000Z" title="发表于 2024-11-16 01:08:49">2024-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/">三国演义</a></span></div><div class="content">却说那撞倒董卓的人，正是李儒。当下李儒扶起董卓，至书院中坐定，卓曰：“汝为何来此？”儒曰：“儒适至府门，知太师怒入后园，寻问吕布。因急走来，正遇吕布奔走，云：‘太师杀我！’儒慌赶入园中劝解，不意误撞恩相。死罪！死罪！”卓曰：“叵耐逆贼！戏吾爱姬，誓必杀之！”儒曰：“恩相差矣。昔楚庄王绝缨之会，不究戏爱姬之蒋雄，后为秦兵所困，得其死力相救。今貂蝉不过一女子，而吕布乃太师心腹猛将也。太师若就此机会，以蝉赐布，布感大恩，必以死报太师。太师请自三思。”卓沈吟良久曰：“汝言亦是，我当思之。”儒谢而出。 卓入后堂，唤貂蝉问曰：“汝何与吕布私通耶？”蝉泣曰：“妾在后园看花，吕布突至。妾方惊避，布曰：‘我乃太师之子，何必相避？’提戟赶妾至凤仪亭。妾见其心不良，恐为所逼，欲投荷池自尽，却被这厮抱住。正在生死之间，得太师来，救了性命。”董卓曰：“我今将汝赐与吕布，何如？”貂蝉大惊，哭曰：“妾身已事贵人，今忽欲下赐家奴，妾宁死不辱！”遂掣壁间宝剑欲自刎。卓慌夺剑拥抱曰：“吾戏汝！”貂蝉倒于卓怀，掩面大哭曰：“此必李儒之计也！儒与布交厚，故设此计；却不顾惜太师体面与贱妾性命。妾当生噬其肉！”卓曰：“吾安...</div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/15/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/#content-inner">15</a><span class="page-number current">16</span><a class="page-number" href="/page/17/#content-inner">17</a><span class="space">&hellip;</span><a class="page-number" href="/page/21/#content-inner">21</a><a class="extend next" rel="next" href="/page/17/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">文心网</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">206</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/sanguo/baihuawen/42-0-20241244201117/" title="第四十二回 降孙皓三国归晋">第四十二回 降孙皓三国归晋</a><time datetime="2024-11-17T04:44:20.000Z" title="发表于 2024-11-17 12:44:20">2024-11-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/sanguo/baihuawen/41-20241243581117/" title="第四十一回 承遗志姜维伐魏">第四十一回 承遗志姜维伐魏</a><time datetime="2024-11-17T04:43:58.000Z" title="发表于 2024-11-17 12:43:58">2024-11-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/sanguo/baihuawen/40-20241243221117/" title="第四十回 魏主政归司马氏">第四十回 魏主政归司马氏</a><time datetime="2024-11-17T04:43:22.000Z" title="发表于 2024-11-17 12:43:22">2024-11-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/sanguo/baihuawen/39-20241242171117/" title="第三十九回 五丈原丞相归天">第三十九回 五丈原丞相归天</a><time datetime="2024-11-17T04:42:17.000Z" title="发表于 2024-11-17 12:42:17">2024-11-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/sanguo/baihuawen/38-20241238261117/" title="第三十八回 上方谷司马受困">第三十八回 上方谷司马受困</a><time datetime="2024-11-17T04:38:26.000Z" title="发表于 2024-11-17 12:38:26">2024-11-17</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/"><span class="card-category-list-name">三国演义</span><span class="card-category-list-count">120</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E3%83%BB%E7%99%BD%E8%AF%9D%E6%96%87%E7%89%88/"><span class="card-category-list-name">三国演义・白话文版</span><span class="card-category-list-count">42</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/guji/"><span class="card-category-list-name">古籍</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/lunyu/"><span class="card-category-list-name">论语</span><span class="card-category-list-count">20</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/lunyuyuanwen/"><span class="card-category-list-name">论语原文</span><span class="card-category-list-count">20</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/" style="font-size: 1.5em; color: #99a9bf">三国演义</a> <a href="/tags/%E8%AE%BA%E8%AF%AD/" style="font-size: 1.1em; color: #999">论语</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+    <ul class="card-archive-list">
+  
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/11/">
+          <span class="card-archive-list-date">十一月 2024</span>
+          <span class="card-archive-list-count">206</span>
+        </a>
+      </li>
+    </ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">206</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-11-19T17:21:54.690Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2024 By 文心网</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
