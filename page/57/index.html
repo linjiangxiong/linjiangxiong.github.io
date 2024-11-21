@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>文心网</title><meta name="author" content="文心网"><meta name="copyright" content="文心网"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="文心网">
+<meta property="og:url" content="https://wenxin.linjiangxiong.com/page/57/index.html">
+<meta property="og:site_name" content="文心网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://wenxin.linjiangxiong.com/img/butterfly-icon.png">
+<meta property="article:author" content="文心网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://wenxin.linjiangxiong.com/img/butterfly-icon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://wenxin.linjiangxiong.com/page/57/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '文心网',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="/css/ud_v1.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">870</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">文心网</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">文心网</h1></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/11-7-20241922531111/" title="季康子问：“弟子孰为好学？”孔子对曰：“有颜回者好学，不幸短命死矣，今也则亡。”">季康子问：“弟子孰为好学？”孔子对曰：“有颜回者好学，不幸短命死矣，今也则亡。”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:53.000Z" title="发表于 2024-11-11 19:22:53">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 11.7 季康子问：“弟子孰为好学？”孔子对曰．“有颜回者好学，不幸短命死矣，今也则亡。” 【翻译】 季康子问：“你的学生中那个好学用功呢？”孔子回答说：’有个叫颜回的学生好学用功，不幸短命早逝了，现在没有这样的人了。” 【解读】 真正好学的人太少 这是孔子与季康子的一段对话。季康子问孔子，他的弟子中有谁好学，孔子回答是颜渊好学，不过短命早逝，他死后就没有好学的人了。 在孔子的学说中，仁是最核心的观念，以仁为中心，孝、礼、勇、智、忠恕等形成了儒学的思想体系。对这个思想体系的理解和把握，就是学问；把它贯彻到自己的生活实践中，就是修养。孔子所说的好学，与现在的好学是有差别的，是对儒家思想的信奉、热爱和真诚实践。这种信奉发自内心，在人的外在行动上表现为一种坚守“仁”的自觉；在生活中，时时处处不离仁的原则，真心实践仁的信条，校正自己的行为，使之与仁的要求保持高度的一致。简而言之，就是做一个高度自觉的儒家信徒。 这个标准非常之高，是完全高尚而纯粹的，不含丝毫的私心杂念。因此在孔子看来，世界上真正好学的人太少了。虽然他的门下有弟子三千，贤者七十二，但在他眼里，能无愧于“好学”二字者...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/11-8-20241922531111/" title="颜渊死，颜路请子之车以为之椁。子曰：“才不才，亦各言其子也。鲤也死，有棺而无椁，吾不徒行以为之椁。以吾从大夫之后，不可徒行也。”">颜渊死，颜路请子之车以为之椁。子曰：“才不才，亦各言其子也。鲤也死，有棺而无椁，吾不徒行以为之椁。以吾从大夫之后，不可徒行也。”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:53.000Z" title="发表于 2024-11-11 19:22:53">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 11.8 颜渊死，颜路请子之车以为之椁①。子曰．“才不才，亦各言其子也。鲤也死②，有棺而无椁。吾不徒行以为之椁③。以吾从大夫之后④，不可徒行也。” 【注释】 ①颜路：颜渊的父亲，也是孔子的学生，名无繇（yóu），字路。椁（guǒ)：古代棺材有的有两层，内层叫棺，外层叫椁。 ②鲤：孔鲤，字伯鱼，孔子的儿子。 ③徒行：步行。 ④从大夫之后：跟随在大夫行列之后。孔子曾经做过鲁国的司寇，属于大夫的地位，不过此时已去位多年。 【翻译】 颜渊死了，他的父亲颜路请求孔子把车卖了给颜渊做一个外椁。孔子说：“不管有才能还是没才能，说来也都是各自的儿子。孔鲤死了，也只有棺，没有椁。我不能卖掉车子步行来给他置办椁。因为我曾经做过大夫，是不可以徒步出行的。” 【解读】  这一章反映了孔子对礼的一丝不苟的严肃态度。礼先于情，凡事要与礼合才可以与情合。孔子与颜渊虽为师生却情同父子，他不同意把自己车子卖掉来为颜渊买外棺，不是舍不得车，而是因为礼制规定，大夫出门必须用车，而且礼以俭为宜。故孔子虽然对颜渊之早逝很悲恸，却始终不忘礼，不肯丧失原则性。  </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/11-1-20241922521111/" title="子曰：“先进于礼乐，野人也；后进于礼乐，君子也。如用之，则吾从先进。”">子曰：“先进于礼乐，野人也；后进于礼乐，君子也。如用之，则吾从先进。”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:52.000Z" title="发表于 2024-11-11 19:22:52">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 11.1 子曰：“先进于礼乐，野人也①；后进于礼乐，君子也②。如用之，则吾从先进。” 【注释】 ①野人：乡野平民或朴野粗鲁的人。 ②君子：指卿大夫等当权的贵族。他们享有世袭特权，可以先做官，后学习。 【翻译】 孔子说：“先学习了礼乐而后做官的，是原来没有爵禄的平民；先做了官而后学习礼乐的，是卿大夫的子弟。如果让我来选用人才，那么我赞成选用先学习礼乐的人。” 【解读】 孔子的用人标准 孔子在这里谈的主要是自己的用人标准，即任人唯贤。应该注意的是，孔子所说的“先进于礼乐”是指先学习礼乐再入世做官，而野人则是指出身下层、家境普通或贫寒的平民。“后进于礼乐”则是指先得到官位后学习礼乐，不习礼乐而能身登官位者，显然都是贵族世家子弟。择人任职之时，如果有“后进”和“先进”两种人可供选择时，孔子主张选择后者。 之所以这样说，孔子是经过深思熟虑的。他认为，先学习礼乐再做官的平民有诸多优势。首先，这些出身于下层的人，虽然面临着困难的生活和艰苦的条件，却能坚持修身养性、学习礼仪，足见其志向远大、情操高洁，有着救世济民的情怀。这样的人，对礼乐精神和仁爱之道的坚守，显然出自淳朴的热爱和真诚的服...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/11-2-20241922521111/" title="子曰：“从我于陈、蔡者，皆不及门也。”">子曰：“从我于陈、蔡者，皆不及门也。”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:52.000Z" title="发表于 2024-11-11 19:22:52">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 11.2 子曰：“从我于陈、蔡者①，皆不及门也②。” 【注释】 ①陈、蔡：春秋时的国名。孔子曾在陈、蔡之间遭受困厄。 ②不及门．有两种解释：一、指不及仕进之门，即不当官；二、指不在门，即不在孔子身边。今从后说。 【翻译】 孔子说：“跟随我在陈国、蔡国之间遭受困厄的弟子们，都不在我身边了。” 【解读】  颜回、子贡和子路等，都是孔子的得意门生，他们曾跟随孔子周游列国，受困于陈蔡，以至绝粮。孔子追思往昔之艰难，情不自胜，而此时这些弟子都不在身边，孔子由是发出了深深的叹息。这里流露出孔子和弟子们的深厚感情。  </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/11-4-20241922521111/" title="子曰：“回也非助我者也，于吾言无所不说。”">子曰：“回也非助我者也，于吾言无所不说。”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:52.000Z" title="发表于 2024-11-11 19:22:52">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 11.4 子曰：“回也非助我者也，于吾言无所不说。” 【翻译】 孔子说：“颜回不是对我有所助益的人，他对我说的话没有不喜欢的。” 【解读】  此章孔子对颜回能又快又深领悟自己的学说表示了深深的赞许，但也有一定的遗憾。颜回聪敏秀慧，对孔子的言语一听就能领会，故只喜悦于心，而无所疑问。既然没有疑问，孔子便不再发挥，而在座的其他弟子不能有所获益，故孔子有一定的遗憾，但又对颜回的好学深思表示赞许。  </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/11-3-20241922521111/" title="德行：颜渊，闵子骞，冉伯牛，仲弓。言语：宰我，子贡。政事：冉有，季路。文学：子游，子夏。">德行：颜渊，闵子骞，冉伯牛，仲弓。言语：宰我，子贡。政事：冉有，季路。文学：子游，子夏。</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:52.000Z" title="发表于 2024-11-11 19:22:52">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 11.3 德行．颜渊，闵子骞，冉伯牛，仲弓。言语：宰我，子贡。政事．冉有，季路。文学①：子游，子夏。 【注释】 ①文学：文献知识，即文学、历史、哲学等方面的文献知识。这里文学的含义与今相异。 【翻译】 （孔子的弟子各有所长）德行好的有：颜渊，闵子骞，冉伯牛，仲弓。娴于辞令的有：宰我，子贡。能办理政事的有：冉有，季路。熟悉古代文献的有：子游，子夏。 【解读】 各有所长 孔子在这里介绍了“四科十哲”，实际上意在说明人各有长处，不必求全责备；用人应用其长处。 在这里，孔子点评了自己的几位得意门生，指出他们各自的优长所在：颜渊、闵子骞、冉伯牛、仲弓等人在德操方面成就较高；宰我和子贡善于交际演讲；冉有、季路善于处理政治事务；子游、子夏则通晓古代典籍制度。 其实，他的这十位弟子并非仅在一方面有所长，而是涉猎广泛，比如仲弓曾婉拒季氏宰，而孔子曾称其“可使南面”，可见其政事之高，闵子骞、颜回亦然；宰我之政才、子路之将才曾令楚臣闻之色变，冉有更是曾助鲁败齐；子游、子夏曾任武城宰、卫行人和莒父宰；子贡“常相鲁、卫”，又能经商理财。 孔子之所以把他们归入四科，说明他在重视学生们全面发展的同时...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/11-5-20241922521111/" title="子曰：“孝哉闵子骞！人不间于其父母昆弟之言。”">子曰：“孝哉闵子骞！人不间于其父母昆弟之言。”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:52.000Z" title="发表于 2024-11-11 19:22:52">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 11.5 子曰“孝哉闵子骞！人不间于其父母昆弟之言①。” 【注释】 ①间(jiàn)：空隙。用作动词，表示找空子。不间，找不到空子。 【翻译】 孔子说：“闵子骞真是孝顺呀！人们对于他的父母兄弟称赞他的话没有异议。” 【解读】 至孝的境界 中国有句古话说“百善孝为先”，另有二十四孝的故事和《孝经》传世，足见社会对孝的重视。孔子在这里不吝美言地极力赞扬闵子骞，也正是由于其事亲至孝的缘故。 很多人可能对闵子骞所知不多，但相信不少人对“鞭打芦花”的故事都有所耳闻。据说闵子骞10岁时丧母，其父续弦再娶，后母带来两个弟弟。后母对家里的三个儿子态度迥异，颇有偏私之心。冬天到了，她为自己的孩子做了又厚又暖的棉衣，却为闵子骞做了一件芦花衣。芦花衣内缝芦花，外表蓬松柔软却并不御寒，所以闵子骞经常被冻得打哆嗦。有一次父亲外出，闵子骞驾车，手冻得抓不住缰绳和马鞭。其父见状非常生气，一把夺过鞭子向他抽去。鞭子将衣服抽破了，芦花露了出来。闵父大惊，带着他回家质问后母，想休了她。但闵子骞跪在地上为后母求情，说“母在一子寒，母去三子单”。其父这才平息怒气，后母从此后改过自新，一家人和睦起来。后来，闵子...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/10-27-20241922521111/" title="色斯举矣，翔而后集。曰：“山梁雌雉，时哉时哉！”子路共之，三嗅而作。">色斯举矣，翔而后集。曰：“山梁雌雉，时哉时哉！”子路共之，三嗅而作。</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:52.000Z" title="发表于 2024-11-11 19:22:52">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 10.27 色斯举矣，翔而后集①。曰：“山梁雌雉，时哉时哉！”子路共之②。三嗅而作③。 【注释】 ①色斯举矣，翔而后集：依《集解》暨刘氏《正义》等诸注解释，色指人的颜色，举是起飞，鸟见人的态度不善，立即飞去。翔是回旋飞翔。集是群鸟在树木上，引申为止息。鸟在回飞观察以后，才肯下来栖息。这两句逸诗是比喻人事上的出处进退应合时宜。 ②共：通“拱”，拱手。 ③嗅：据集注引刘聘君的意见，当作狊字，古阒反，读局（jú）音，其义为鸟张两翅，见尔雅释兽郭璞注。 【翻译】 （孔子在山谷中行走，看见几只野鸡。）孔子神色一动，野鸡飞着盘旋了一阵后，又落在了一处。孔子说：“这些山梁上的母野鸡，得其时啊！得其时啊！”子路向它们拱拱手，野鸡振几下翅膀飞走了。 【解读】  此章孔子借自然现象来抒发自己的情感。他一生东奔西走，却没有在当时获得普遍的响应。这里似乎是在游山观景，其实孔子是有感而发。他看到山谷里的野鸡能够自由飞翔，自由落下，悠然自得，这是“得其时”，而自己却不得其时，由是发出了这样充满了诗意的感叹。  </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/10-26-20241922521111/" title="升车，必正立，执绥。车中不内顾，不疾言，不亲指。">升车，必正立，执绥。车中不内顾，不疾言，不亲指。</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:52.000Z" title="发表于 2024-11-11 19:22:52">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 10.26 升车，必正立，执绥①。车中，不内顾，不疾言，不亲指。 【注释】 ①绥（suí）：上车时扶手用的索带。 【翻译】 孔子上车时，一定站立端正，拉住扶手的带子登车。在车中，不向里面环顾，不快速说话，不用手指指画画。 【解读】 出行的礼仪 本章描写的是孔子乘车时的一些小细节，这些举动反映出孔子时刻遵循礼仪的严谨生活态度。古时的车驾并不像现在的私家车这般普及，那是一种身份的象征。孔子登车时，正立执绥，既有安全的考虑，也是正身正心的表现。在车中不大声说话，是为了不惊扰到驾车的人，是为安全驾车，这与今日我们所提倡的不与司机交谈的道理一样。而他不左右环视，也不用手指指点点，则是为了避免让人产生疑惑，造成不好的影响。 孔子的行为提醒我们，在出行时一定要注意相关礼仪。当然，由于时代的差异，孔子时代的车子已经成为难觅的古董，他的登车之举我们也无从学起。但是，我们出行时乘用飞机、轮船、火车、轿车乃至公共汽车等交通工具时，也同样需要礼仪。 不管乘用哪种交通工具，首先要注意的是安全。特别是飞机、轮船、火车和公交车这些公共交通，必须遵守相关规则。登门时要特别注意，要抓稳扶稳，不要争抢拥挤...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/lunyu/10-18-20241922511111/" title="君赐食，必正席先尝之。君赐腥，必熟而荐之。君赐生，必畜之。侍食于君，君祭，先饭。">君赐食，必正席先尝之。君赐腥，必熟而荐之。君赐生，必畜之。侍食于君，君祭，先饭。</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-11T11:22:51.000Z" title="发表于 2024-11-11 19:22:51">2024-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/lunyu/">论语</a></span></div><div class="content">【原文】 10.18 君赐食，必正席先尝之。君赐腥，必熟而荐之①。君赐生，必畜之。侍食于君，君祭，先饭②。 【注释】 ①荐：供奉。 ②先饭：先吃饭，表示为君主尝食。 【翻译】 国君赐给食物，孔子一定会摆正席位先尝一尝。国君赐给生肉，他一定会煮熟了，先给祖先上供。国君赐给活物，他一定会养起来。陪侍国君吃饭，当国君进行饭前祭祀的时候，他先取国君面前的饭菜为他尝食。 【解读】 对领导要忠诚 在古时，君主在吃饭之前，需要有人先尝一尝食物是否有问题，然后君主才可以吃。在本章中，孔子在与国君共同进餐时，都会事先尝一下食物，以示关爱。不仅如此，他对于国君赏赐的东西，也表现出了足够的尊敬。他在生病期间，当国君前来探望之时，以及被国君传召之时，也都不会失礼。而且，在这种种的生活细节当中，孔子不仅表现出了对礼制的遵守和敬畏，还表现出了对国君无限的忠诚。 在古代社会，忠诚与否是君主择人用人最为核心的标准。这一点，从历代法律条文和数不胜数的事件中看得清清楚楚。在所有的犯罪中，不忠和谋逆，也就是企图反叛君主的人，所受的处罚最重。从残忍的凌迟，到惨无人道的车裂，都是用来对付不忠诚的臣子。而那些忠贞不二的臣子...</div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/56/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/56/#content-inner">56</a><span class="page-number current">57</span><a class="page-number" href="/page/58/#content-inner">58</a><span class="space">&hellip;</span><a class="page-number" href="/page/87/#content-inner">87</a><a class="extend next" rel="next" href="/page/58/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">文心网</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">870</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/58-20240938581121/" title="第五十八回 三山聚义打青州 众虎同心归水泊">第五十八回 三山聚义打青州 众虎同心归水泊</a><time datetime="2024-11-21T01:38:58.000Z" title="发表于 2024-11-21 09:38:58">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/117-20240938581121/" title="第一百十七回 睦州城箭射邓元觉 乌龙岭神助宋公明">第一百十七回 睦州城箭射邓元觉 乌龙岭神助宋公明</a><time datetime="2024-11-21T01:38:58.000Z" title="发表于 2024-11-21 09:38:58">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/57-20240938571121/" title="第五十七回 徐宁教使钩镰枪 宋江大破连环马">第五十七回 徐宁教使钩镰枪 宋江大破连环马</a><time datetime="2024-11-21T01:38:57.000Z" title="发表于 2024-11-21 09:38:57">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/116-20240938571121/" title="第一百十六回 卢俊义分兵歙州道 宋公明大战乌龙岭">第一百十六回 卢俊义分兵歙州道 宋公明大战乌龙岭</a><time datetime="2024-11-21T01:38:57.000Z" title="发表于 2024-11-21 09:38:57">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/56-20240938561121/" title="第五十六回 吴用使时迁盗甲 汤隆赚徐宁上山">第五十六回 吴用使时迁盗甲 汤隆赚徐宁上山</a><time datetime="2024-11-21T01:38:56.000Z" title="发表于 2024-11-21 09:38:56">2024-11-21</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+      <i class="fas fa-angle-right"></i></a>
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/"><span class="card-category-list-name">三国演义</span><span class="card-category-list-count">120</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E3%83%BB%E7%99%BD%E8%AF%9D%E6%96%87%E7%89%88/"><span class="card-category-list-name">三国演义・白话文版</span><span class="card-category-list-count">42</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/guji/"><span class="card-category-list-name">古籍</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B0%B4%E6%B5%92%E4%BC%A0/"><span class="card-category-list-name">水浒传</span><span class="card-category-list-count">120</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"><span class="card-category-list-name">红楼梦</span><span class="card-category-list-count">120</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%A5%BF%E6%B8%B8%E8%AE%B0/"><span class="card-category-list-name">西游记</span><span class="card-category-list-count">100</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E3%83%BB%E9%9D%92%E5%B0%91%E5%B9%B4%E7%89%88/"><span class="card-category-list-name">西游记・青少年版</span><span class="card-category-list-count">32</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/lunyu/"><span class="card-category-list-name">论语</span><span class="card-category-list-count">312</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E8%A5%BF%E6%B8%B8%E8%AE%B0/" style="font-size: 1.23em; color: #999ea6">西游记</a> <a href="/tags/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/" style="font-size: 1.37em; color: #99a4b2">三国演义</a> <a href="/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/" style="font-size: 1.1em; color: #999">红楼梦</a> <a href="/tags/%E6%B0%B4%E6%B5%92%E4%BC%A0/" style="font-size: 1.1em; color: #999">水浒传</a> <a href="/tags/%E8%AE%BA%E8%AF%AD/" style="font-size: 1.5em; color: #99a9bf">论语</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+    <ul class="card-archive-list">
+  
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/11/">
+          <span class="card-archive-list-date">十一月 2024</span>
+          <span class="card-archive-list-count">870</span>
+        </a>
+      </li>
+    </ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">870</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-11-21T16:47:11.318Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2024 By 文心网</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
