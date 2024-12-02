@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://wenxin.fun/books/sanguo/1-20240006291116/</loc>
+        <lastmod>2024-12-02T22:10:43.251Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://wenxin.fun/jiaju/sanzijing-1-20241839230903/</loc>
         <lastmod>2024-12-01T17:25:47.323Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -9811,14 +9819,6 @@
     <url>
         <loc>https://wenxin.fun/books/sanguo/2-20240010081116/</loc>
         <lastmod>2024-11-19T16:39:57.855Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://wenxin.fun/books/sanguo/1-20240006291116/</loc>
-        <lastmod>2024-11-19T16:39:50.216Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
