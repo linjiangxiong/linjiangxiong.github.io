@@ -9,8 +9,16 @@
 
 
     <url>
+        <loc>https://wenxin.fun/books/shuihu/120-20240940021121/</loc>
+        <lastmod>2024-12-07T16:51:23.955Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://wenxin.fun/shicijianshang/2412010001-20240001591201/</loc>
-        <lastmod>2024-12-07T10:58:54.813Z</lastmod>
+        <lastmod>2024-12-07T16:41:59.845Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -3379,14 +3387,6 @@
     <url>
         <loc>https://wenxin.fun/books/lunyu/yuanwen-1-20242126011002/</loc>
         <lastmod>2024-11-23T19:36:05.851Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://wenxin.fun/books/shuihu/120-20240940021121/</loc>
-        <lastmod>2024-11-23T19:22:16.831Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

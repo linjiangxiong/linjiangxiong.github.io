@@ -9,8 +9,15 @@
 
 
     <url>
-        <loc>https://wenxin.fun/categories/%25E8%25AF%2597%25E8%25AF%258D%25E9%2589%25B4%25E8%25B5%258F/</loc>
-        <lastmod>2024-12-07T10:58:54.813Z</lastmod>
+        <loc>https://wenxin.fun/categories/shuihu/</loc>
+        <lastmod>2024-12-07T16:51:23.955Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://wenxin.fun/categories/shicijianshang/</loc>
+        <lastmod>2024-12-07T16:41:59.845Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -53,13 +60,6 @@
     <url>
         <loc>https://wenxin.fun/categories/lunyuyuanwen/</loc>
         <lastmod>2024-11-23T19:39:18.865Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://wenxin.fun/categories/shuihu/</loc>
-        <lastmod>2024-11-23T19:22:16.831Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

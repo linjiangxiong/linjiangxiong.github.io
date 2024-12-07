@@ -3,15 +3,8 @@
 
 
     <url>
-        <loc>https://wenxin.fun/tags/HowTo/</loc>
-        <lastmod>2024-12-07T10:58:54.813Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://wenxin.fun/tags/Python/</loc>
-        <lastmod>2024-12-07T10:58:54.813Z</lastmod>
+        <loc>https://wenxin.fun/tags/shuihu/</loc>
+        <lastmod>2024-12-07T16:51:23.955Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -40,13 +33,6 @@
     <url>
         <loc>https://wenxin.fun/tags/lunyu/</loc>
         <lastmod>2024-11-23T19:45:30.485Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://wenxin.fun/tags/shuihu/</loc>
-        <lastmod>2024-11-23T19:22:16.831Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
