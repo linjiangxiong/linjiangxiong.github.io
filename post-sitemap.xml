@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://wenxin.fun/books/qianziwen/py/</loc>
+        <lastmod>2024-12-23T16:17:57.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://wenxin.fun/books/qianziwen/yizhu/5/</loc>
         <lastmod>2024-12-23T16:07:52.906Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -59,14 +67,6 @@
     <url>
         <loc>https://wenxin.fun/books/qianziwen/dy/</loc>
         <lastmod>2024-12-18T17:26:51.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://wenxin.fun/books/qianziwen/py/</loc>
-        <lastmod>2024-12-18T17:17:55.749Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
