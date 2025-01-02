@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://wenxin.fun/books/qianziwen/dy/</loc>
+        <lastmod>2025-01-02T17:43:58.967Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://wenxin.fun/books/sanguo/baihuawen/18/</loc>
         <lastmod>2024-12-23T16:48:37.207Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1611,14 +1619,6 @@
     <url>
         <loc>https://wenxin.fun/books/qianziwen/yizhu/1/</loc>
         <lastmod>2024-12-23T16:07:31.272Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://wenxin.fun/books/qianziwen/dy/</loc>
-        <lastmod>2024-12-18T17:26:51.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
