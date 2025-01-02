@@ -1371,7 +1371,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
+  font-family: Verdana, Arial, Helvetica, sans-serif, times, Heiti TC, PMingLiU, PMingLiu-ExtB, SimSun, SimSun-ExtB, HanaMinA, HanaMinB;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -1653,7 +1653,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: var(--global-font-size);
-  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft JhengHei', sans-serif !important;
   border-radius: 6px;
 }
 .container code {
