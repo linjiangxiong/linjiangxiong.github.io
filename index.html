@@ -1,0 +1,186 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>文心FUN - 享受传统文化盛宴</title><meta name="author" content="文心FUN"><meta name="copyright" content="文心FUN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="keywords" content="文心FUN"><meta property="og:type" content="website">
+<meta property="og:title" content="文心FUN">
+<meta property="og:url" content="https://wenxin.fun/index.html">
+<meta property="og:site_name" content="文心FUN">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://wenxin.fun/img/butterfly-icon.png">
+<meta property="article:author" content="文心FUN">
+<meta property="article:tag" content="国学经典，传统文化，诗词，唐诗，宋词，元典，四大名著，诗词鉴赏，名句赏析">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://wenxin.fun/img/butterfly-icon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://wenxin.fun/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?29e7a7aef5fd3fcd5792c1c29f0d29b0";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+btf.addGlobalFn('pjaxComplete', () => {
+  _hmt.push(['_trackPageview',window.location.pathname])
+}, 'baidu_analytics')
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-XYYV2BMY6M"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-XYYV2BMY6M')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-XYYV2BMY6M', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '複製成功',
+    error: '複製失敗',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '載入更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '文心FUN',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><link rel="stylesheet" href="/css/ud_v1.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/shicijianshang/"><i class="fa-fw fas fa-book"></i><span> 诗词鉴赏</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">文心FUN</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/shicijianshang/"><i class="fa-fw fas fa-book"></i><span> 诗词鉴赏</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">文心FUN</h1></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/shuihu/119/" title="第一百十九回 魯智深浙江坐化　宋公明衣錦還鄉">第一百十九回 魯智深浙江坐化　宋公明衣錦還鄉</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2024-11-21T01:40:01.000Z" title="發表於 2024-11-21 09:40:01">2024-11-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B0%B4%E6%BB%B8%E5%82%B3%E3%83%BB%E5%8E%9F%E6%96%87/">水滸傳・原文</a></span></div><div class="content">當下方臘殿前啟奏，願領兵出洞征戰的，正是東床駙馬主爵都尉柯引。方臘見奏，不勝之喜。柯駙馬當下同領南兵，帶了雲璧奉尉，披掛上馬出師。方臘將自己金甲錦袍，賜與駙馬，又選一騎好馬，叫他出戰。那柯駙馬與同皇姪方杰，引領洞中護御軍兵一萬人馬，駕前上將二十餘員，出到幫源洞口，列成陣勢。 卻說宋江軍馬困住洞口，已教將佐分調守護。宋江在陣中，因見手下弟兄三停內折了二停，方臘又未曾拿得，南兵又不出戰，眉頭不展，面帶憂容。只聽得前軍報來說：「洞中有軍馬出來交戰。」宋江，盧俊義見報，急令諸將上馬，引軍出戰。擺開陣勢，看南軍陣裏，當先是柯駙馬出戰。宋江軍中，誰不認得是柴進？宋江便令花榮出馬迎敵。花榮得令，便橫鎗躍馬，出到陣前，高聲喝問：「你那廝是甚人，敢助反賊，與吾大兵敵對？我若拿住你時，碎屍萬段，骨肉為泥！好好下馬受降，免汝一命！」柯駙馬答道：「我乃山東柯引，誰不聞我大名？量你這廝們是梁山泊一夥強徒草寇，何足道哉！偏俺不如你們手段？我直把你們殺盡，克復城池，是吾之願！」宋江與盧俊義在馬上聽了，尋思柴進口裏說的話，知他心裏的事。他把「柴」字改作「柯」字，「柴」即是「柯」也﹔「進」字改作「引」字，「引」即...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/shuihu/3/" title="第三回 史大郎夜走華陰縣　魯提轄拳打鎮關西">第三回 史大郎夜走華陰縣　魯提轄拳打鎮關西</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2024-11-21T01:38:03.000Z" title="發表於 2024-11-21 09:38:03">2024-11-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B0%B4%E6%BB%B8%E5%82%B3%E3%83%BB%E5%8E%9F%E6%96%87/">水滸傳・原文</a></span></div><div class="content">話說當時史進道：「卻怎生是好？」朱武等三個頭領跪下答道：「哥哥，你是乾淨的人，休為我等連累了大郎。可把索來綁縛我三個，出去請賞，免得負累了你不好看。」史進道：「如何使得！恁地時，是我賺你們來，捉你請賞，枉惹天下人笑。我若是死時，與你們同死，活時同活。你等起來，放心，別作圓便。且等我問個來歷緣故情由。」 史進上梯子問道：「你兩個都頭，何故半夜三更來劫我莊上？」那兩個都頭答道：「大郎，你兀自賴哩！現有原告人李吉在這裏。」史進喝道：「李吉，你如何誣告平人？」李吉應道：「我本不知，林子裏拾得王四的回書，一時間把在縣前看，因此事發。」史進叫王四問道：「你說無回書，如何卻又有書？」王四道：「便是小人一時醉了，忘記了回書。」史進大喝道：「畜生，卻怎生好？」外面都頭人等，懼怕史進了得，不敢奔入莊裏來捉人。三個頭領把手指道：「且答應外面。」史進會意，在梯子上叫道：「你兩個都頭都不要鬧動，權退一步，我自綁縛出來，解官請賞。」那兩個都頭卻怕史進，只得應道：「我們都是沒事的，等你綁出來，同去請賞。」史進下梯子，來到廳前，先叫王四，帶進後園，把來一刀殺了。喝教許多莊客，把莊裏有的沒的細軟等物，即便收拾，盡...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/shuihu/2/" title="第二回 王教頭私走延安府　九紋龍大鬧史家村">第二回 王教頭私走延安府　九紋龍大鬧史家村</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2024-11-21T01:38:02.000Z" title="發表於 2024-11-21 09:38:02">2024-11-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B0%B4%E6%BB%B8%E5%82%B3%E3%83%BB%E5%8E%9F%E6%96%87/">水滸傳・原文</a></span></div><div class="content">話說當時住持真人對洪太尉說道：「太尉不知，此殿中當初是祖老天師洞玄真人傳下法符，囑付道：『此殿內鎮鎖著三十六員天罡星，七十二座地煞星，共是一百單八個魔君在裏面。上立石碑，鑿著龍章鳳篆天符，鎮住在此。若還放他出世，必惱下方生靈。』如今太尉放他走了，怎生是好？」有詩為證： 千古幽扃一旦開，天罡地煞出泉臺。 自來無事多生事，本為禳災卻惹災。 社稷從今雲擾擾，兵戈到處鬧垓垓。 高俅姦佞雖堪恨，洪信從今釀禍胎。 當時洪太尉聽罷，渾身冷汗，捉顫不住。急急收拾行李，引了從人，下山回京。真人並道眾送官已罷，自回宮內，修整殿宇，起豎石碑，不在話下。 再說洪太尉在途中吩咐從人，教把走妖魔一節，休說與外人知道，恐天子知而見責。於路無話，星夜回至京師，進得汴梁城，聞人所說：「天師在東京禁院做了七晝夜好事，普施符籙，禳救災病，瘟疫盡消，軍民安泰。天師辭朝，乘鶴駕雲，自回龍虎山去了。」洪太尉次日早朝，見了天子。奏說：「天師乘鶴駕雲，先到京師，臣等驛站而來，纔得到此。」仁宗准奏，賞賜洪信，復還舊職，亦不在話下。 後來仁宗天子在位共四十二年，晏駕，無有太子，傳位濮安懿王允讓之子，太宗皇帝的孫，立帝號曰英宗。在位...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/shuihu/1/" title="第一回 張天師祈禳瘟疫　洪太尉誤走妖魔">第一回 張天師祈禳瘟疫　洪太尉誤走妖魔</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2024-11-21T01:38:01.000Z" title="發表於 2024-11-21 09:38:01">2024-11-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B0%B4%E6%BB%B8%E5%82%B3%E3%83%BB%E5%8E%9F%E6%96%87/">水滸傳・原文</a></span></div><div class="content">話說大宋仁宗天子在位，嘉祐三年三月三日五更三點，天子駕坐紫宸殿，受百官朝賀。但見： 祥雲迷鳳閣，瑞氣罩龍樓。含煙御柳拂旌旗，帶露宮花迎劍戟。天香影裏，玉簪朱履聚丹墀﹔仙樂聲中，繡襖錦衣扶御駕。珍珠簾捲，黃金殿上現金轝﹔鳳羽扇開，白玉階前停寶輦。隱隱淨鞭三下響，層層文武兩班齊。 當有殿頭官喝道：「有事出班早奏，無事捲簾退朝。」只見班部叢中，宰相趙哲，參政文彥博出班奏曰：「目今京師瘟疫盛行，傷損軍民甚多。伏望陛下釋罪寬恩，省刑薄稅，祈禳天災，救濟萬民。」天子聽奏，急敕翰林院，隨即草詔，一面降赦天下罪囚，應有民間稅賦，悉皆赦免﹔一面命在京宮觀寺院，修設好事禳災。不料其年瘟疫轉盛。仁宗天子聞知，龍體不安，復會百官計議。向那班部中，有一大臣，越班啟奏。天子看時，乃是參知政事范仲淹，拜罷起居，奏曰：「目今天災盛行，軍民塗炭，日夕不能聊生。以臣愚意，要禳此災，可宣嗣漢天師星夜臨朝，就京師禁院，修設三千六百分羅天大醮，奏聞上帝，可以禳保民間瘟疫。」仁宗天子准奏。急令翰林學士草詔一道，天子御筆親書，並降御香一炷，欽差內外提點，殿前太尉洪信為天使，前往江西信州龍虎山，宣請嗣漢天師張真人星夜來朝，祈禳...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/books/shuihu/0/" title="引首">引首</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2024-11-21T01:38:00.000Z" title="發表於 2024-11-21 09:38:00">2024-11-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B0%B4%E6%BB%B8%E5%82%B3%E3%83%BB%E5%8E%9F%E6%96%87/">水滸傳・原文</a></span></div><div class="content">詞曰： 試看書林隱處，幾多俊逸儒流。虛名薄利不關愁，裁冰及剪雪，談笑看吳鉤。評議前王並後帝，分真偽占據中州，七雄擾擾亂春秋。興亡如脆柳，身世類虛舟。見成名無數，圖形無數，更有那逃名無數。霎時新月下長川，江湖變桑田古路。訝求魚緣木，擬窮猿擇木，恐傷弓遠之曲木。不如且覆掌中杯，再聽取新聲曲度。 詩曰： 紛紛五代亂離間，一旦雲開復見天。草木百年新雨露，車書萬裏舊江山。 尋常巷陌陳羅綺，幾處樓臺奏管絃。人樂太平無事日，鶯花無限日高眠。 話說這八句詩乃是故宋神宗天子朝中一個名儒，姓邵，諱堯夫，道號康節先生所作，為嘆五代殘唐，天下干戈不息。那時朝屬梁，暮屬晉，正謂是： 朱李石劉郭，梁唐晉漢周， 都來十五帝，播亂五十秋！ 後來感的天道循環，向甲馬營中生下太祖武德皇帝來。這朝聖人出世，紅光滿天，異香經宿不散，乃是上界霹靂大仙下降。英雄勇猛，智量寬洪，自古帝王，都不及這朝天子：一條桿棒等身齊，打四百座軍州都姓趙！那天子掃清寰宇，蕩靜中原，國號大宋，建都汴梁。九朝八帝班頭，四百年開基帝主。因此上，邵堯夫先生讚道：「一旦雲開復見天！」正如教百姓再見天日之面。不則這個先生吟讚。那時西嶽華山有個陳摶處士，...</div></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">文心FUN</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">1</div></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/119/" title="第一百十九回 魯智深浙江坐化　宋公明衣錦還鄉">第一百十九回 魯智深浙江坐化　宋公明衣錦還鄉</a><time datetime="2024-11-21T01:40:01.000Z" title="發表於 2024-11-21 09:40:01">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/3/" title="第三回 史大郎夜走華陰縣　魯提轄拳打鎮關西">第三回 史大郎夜走華陰縣　魯提轄拳打鎮關西</a><time datetime="2024-11-21T01:38:03.000Z" title="發表於 2024-11-21 09:38:03">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/2/" title="第二回 王教頭私走延安府　九紋龍大鬧史家村">第二回 王教頭私走延安府　九紋龍大鬧史家村</a><time datetime="2024-11-21T01:38:02.000Z" title="發表於 2024-11-21 09:38:02">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/1/" title="第一回 張天師祈禳瘟疫　洪太尉誤走妖魔">第一回 張天師祈禳瘟疫　洪太尉誤走妖魔</a><time datetime="2024-11-21T01:38:01.000Z" title="發表於 2024-11-21 09:38:01">2024-11-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/books/shuihu/0/" title="引首">引首</a><time datetime="2024-11-21T01:38:00.000Z" title="發表於 2024-11-21 09:38:00">2024-11-21</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分類</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B0%B4%E6%BB%B8%E5%82%B3%E3%83%BB%E5%8E%9F%E6%96%87/"><span class="card-category-list-name">水滸傳・原文</span><span class="card-category-list-count">5</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>標籤</span></div><div class="card-tag-cloud"><a href="/tags/%E6%B0%B4%E6%BB%B8%E5%82%B3%E3%83%BB%E5%8E%9F%E6%96%87/" style="font-size: 1.1em; color: #999">水滸傳・原文</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>歸檔</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/11/">
+            <span class="card-archive-list-date">
+              十一月 2024
+            </span>
+            <span class="card-archive-list-count">5</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>網站資訊</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章數量 :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">訪客數 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">總瀏覽量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最後更新時間 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-02-10T17:50:49.547Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By 文心FUN</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="繁簡轉換">繁</button><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

@@ -1,0 +1,30 @@
+.rounded {
+    border-radius: var(--bs-border-radius) !important;
+}
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+.p-3 {
+    padding: 1rem !important;
+}
+.my-2 {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+.fs-3 {
+    font-size: 1.75rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-center a {
+    color: rgba(0, 0, 0, .8);
+}
+
+#article-container {
+    font-size: 14pt !important;
+}
